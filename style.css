@@ -736,14 +736,15 @@ del{
 
     justify-content: space-between;
     flex-wrap: wrap;
-    /* gap: 70px; */
+    /* flex-basis: 20%; */
+    /* gap: 10px; */
     padding-block:40px 60px;
 }
 
 .footer-details-box{
 
-    flex-basis: 18%;
-    text-align: center;
+    flex-basis: 15%;
+    text-align: justify;
 }
 
 
@@ -785,6 +786,10 @@ del{
     width: 230px;
     border-radius: 4px;
     
+}
+
+.email-address input {
+    outline: none;
 }
 
 
@@ -1032,6 +1037,10 @@ del{
 
         margin-bottom: 10px;
     }
+
+    .box-9C {
+        display: none;
+    }
 }
 
 
@@ -1273,4 +1282,9 @@ del{
         font-size: 0.85rem;
         
     }
+
+    .box-9C {
+        display: none;
+    }
+
 }
